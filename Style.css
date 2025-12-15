@@ -1,18 +1,20 @@
 body{
-    background: conic-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background: conic-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80") repeat center/cover fixed;
     background-attachment: fixed;
     font-family: 'poppins',sans-serif;
 }
 .container{
-    width: 100%;
     height: 100vh;
     color: rgb(0, 151, 245);
     font-size:20px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 #form{
-    width: 400px;
+    width: 450px;
     /*margin: 20vh auto 0 auto;*/
-    margin-left: 30%;
+    margin-left: 40px;
     background-color: white;
     border-radius: 35px;
     padding: 20px;
@@ -31,6 +33,10 @@ h1{
     cursor: pointer;
     font-size: 20px;
     width:100%;
+}
+#form button:hover{
+    background-color: rgb(17, 196, 250);
+    border-color: rgb(17, 196, 250);
 }
 .input-group{
     display: flex;
